@@ -7,9 +7,16 @@ body {
   font-family: Roboto, sans-serif;
   display: flex;
   flex-direction: column;
+<<<<<<< HEAD
   justify-content: space-between;
   /* padding: 1em; */
+=======
+>>>>>>> fix-06
 }
+
+/* body > * {
+  border: 2px solid red;
+} */
 
 img {
   width: 600px;
@@ -30,14 +37,35 @@ input {
 }
 
 ul {
+<<<<<<< HEAD
   list-style: none;
   margin: 0;
   padding: 0;
+=======
+  display: flex;
+  list-style: none;
+  gap: 1em;
+  padding: 0;
+  margin: 0;
+>>>>>>> fix-06
 }
 
 a {
   text-decoration: none;
+<<<<<<< HEAD
   color: #616060;
+=======
+  color: #494949;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1em;
+>>>>>>> fix-06
 }
 
 .header,
@@ -45,6 +73,7 @@ a {
   display: flex;
   justify-content: space-between;
   padding: 1em;
+<<<<<<< HEAD
   /* border: 2px solid red; */
 }
 
@@ -70,3 +99,6 @@ a {
 button {
   padding: 1em;
 }
+=======
+}
+>>>>>>> fix-06
